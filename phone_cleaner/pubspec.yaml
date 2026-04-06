@@ -1,0 +1,48 @@
+name: phone_cleaner
+description: A Flutter app to clean up your Android phone - remove junk files and duplicates.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Permissions
+  permission_handler: ^11.3.0
+  # File system paths
+  path_provider: ^2.1.2
+  # Storage info
+  disk_space_plus: ^2.0.1
+  # Device info for SDK version detection
+  device_info_plus: ^10.1.0
+  # Hashing for duplicate detection
+  crypto: ^3.0.3
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  # Routing
+  go_router: ^13.2.0
+  # Preferences
+  shared_preferences: ^2.2.2
+  # UI
+  flutter_animate: ^4.5.0
+  percent_indicator: ^4.2.3
+  # Utils
+  collection: ^1.18.0
+  intl: ^0.19.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.8
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+
+flutter:
+  uses-material-design: true
